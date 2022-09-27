@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button {
+    border: none;
+    border-radius: 0;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.btn {
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.btn-action {
+    background-color: greenyellow;
+}
+.btn-action:hover {
+    background-color: lime;
+}
+.btn-back {
+    background-color: gray;
+    color: #fff;
+}
+.btn-back:hover {
+    background-color: #555;
+}
